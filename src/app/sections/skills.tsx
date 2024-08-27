@@ -8,7 +8,7 @@ export default function skillsSection() {
                 <p className="text-5xl text-center">Skills</p>
             </div>
 
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-4 py-8 ">
 
                 <Card
                 name="CSS"

@@ -6,13 +6,11 @@ import skillsSection from "./sections/skills";
 import socialSection from "./sections/socialsection";
 import namingSection from "./sections/naming";
 import { BackgroundBeams } from "./components/backgroundBeams";
-import { Background } from "./components/backgroundBoxes";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-36 ">
       <BackgroundBeams className="min-h-screen" />
-      <Background />
       <section>
         {socialSection()}
       </section>

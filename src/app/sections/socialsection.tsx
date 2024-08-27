@@ -1,30 +1,28 @@
 export default function socialSection() {
     return (
-        <div className="flex ">
+        <div className="flex">
         <div className="flex fixed -rotate-90 right-0 top-1/2 cursor-pointer gap-4">
 
         
-          <a className="cursor-pointer" href="https://github.com/itsYaraso">
+          <a className="" href="https://github.com/itsYaraso">
             <img
               src="/github.svg"
-              className="cursor-pointer"
+              className="cursor-pointer hover:scale-150"
               width={32}
               height={32}
               alt="itsYaraso"
             />
           </a>
 
-          <a className="cursor-pointer" href="https://github.com/">
+          <a className="" href="https://github.com/">
             <img
               src="/linkedin.svg"
-              className="invert"
+              className="invert cursor-pointer hover:scale-150"
               width={32}
               height={32}
               alt="Linkedin"
             />
           </a>
-
-
         </div>
       </div>
     );
