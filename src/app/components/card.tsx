@@ -23,7 +23,7 @@ export function Card(skills: skills = { name: '', icon: '', link: ''}) {
           className="text-xl font-bold text-neutral-600 dark:text-white"
           >
           <a href={skills.link} target="_blank">
-            <Image src={skills.icon}className="h-full w-full" alt="skills"/>
+            <img src={skills.icon}className="h-full w-full" alt="skills"/>
             </a>
         </CardItem>
         <div className="flex justify-between items-center mt-20">

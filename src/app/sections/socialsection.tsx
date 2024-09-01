@@ -7,7 +7,7 @@ export default function socialSection() {
 
         
           <a className="" href="https://github.com/itsYaraso" target="_blank">
-            <Image
+            <img
               src="/github.svg"
               className="cursor-pointer hover:scale-150 ease-in-out duration-200"
               width={24}
@@ -17,7 +17,7 @@ export default function socialSection() {
           </a>
 
           <a className="" href="https://github.com/" target="_blank">
-            <Image
+            <img
               src="/linkedin.svg"
               className="invert cursor-pointer hover:scale-150 ease-in-out duration-200"
               width={24}
