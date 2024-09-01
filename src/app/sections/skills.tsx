@@ -23,27 +23,27 @@ export default function skillsSection() {
 
                 <Card
                     name="HTML"
-                    icon="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"
+                    icon="html.svg"
                     link="https://developer.mozilla.org/en-US/docs/Web/HTML" />
 
                 <Card
                     name="TSX"
-                    icon="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+                    icon="typescript.svg"
                     link="https://www.typescriptlang.org" />
 
                 <Card
                     name="PS"
-                    icon="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Adobe_Photoshop_CC_icon.svg/2048px-Adobe_Photoshop_CC_icon.svg.png"
+                    icon="photoshop.svg"
                     link="https://www.adobe.com" />
 
                 <Card
                     name="Ai"
-                    icon="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Adobe_Illustrator_CC_icon.svg/2048px-Adobe_Illustrator_CC_icon.svg.png"
+                    icon="illustrator.svg"
                     link="https://www.adobe.com" />
 
-                <Card
+                <Card 
                     name="unreal engine"
-                    icon="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Adobe_Unity_CC_icon.svg/2048px-Adobe_Unity_CC_icon.svg.png"
+                    icon="unrealengine.svg"
                     link="https://www.unrealengine.com" />
 
                 <Card
@@ -53,7 +53,7 @@ export default function skillsSection() {
 
                 <Card
                     name="GIT"
-                    icon="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git_icon.svg/2048px-Git_icon.svg.png"
+                    icon="git.svg"
                     link="https://git-scm.com" />
             </div>
 

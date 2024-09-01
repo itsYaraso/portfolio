@@ -16,7 +16,7 @@ export default function socialSection() {
             />
           </a>
 
-          <a className="" href="https://github.com/" target="_blank">
+          <a className="" href="https://www.linkedin.com/in/benjamin-gregg-9a514397/" target="_blank">
             <img
               src="/linkedin.svg"
               className="invert cursor-pointer hover:scale-150 ease-in-out duration-200"
