@@ -53,7 +53,7 @@ export const CardContainer = ({
           containerClassName
         )}
         style={{
-          perspective: "100px",
+          perspective: "450px",
         }}
       >
         <div
@@ -87,7 +87,6 @@ export const CardBody = ({
     <div
       className={cn(
         "h-32 w-32 [transform-style:preserve-3d]  [&>*]:[transform-style:preserve-3d]",
-        className
       )}
     >
       {children}
@@ -101,10 +100,10 @@ export const CardItem = ({
   className,
   translateX = 0,
   translateY = 0,
-  translateZ = 100,
+  translateZ = 2000,
   rotateX = 0,
   rotateY = 0,
-  rotateZ = 360,
+  rotateZ = 0,
   ...rest
 }: {
   as?: React.ElementType;
@@ -123,7 +122,8 @@ export const CardItem = ({
 
   useEffect(() => {
     handleAnimations();
-  }, [isMouseEntered]);
+}, [isMouseEntered]);
+
 
   const handleAnimations = () => {
     if (!ref.current) return;
@@ -145,7 +145,6 @@ export const CardItem = ({
   );
 };
 
-// Create a hook to use the context
 export const useMouseEnter = () => {
   const context = useContext(MouseEnterContext);
   if (context === undefined) {
