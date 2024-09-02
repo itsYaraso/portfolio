@@ -26,7 +26,7 @@ export function Card(skills: skills = { name: '', icon: '', link: ''}) {
             <img src={skills.icon}className="h-full w-full" alt="skills"/>
             </a>
         </CardItem>
-        <div className="flex justify-between items-center mt-20">
+        <div className="flex justify-between items-center">
         </div>
       </CardBody>
     </CardContainer>

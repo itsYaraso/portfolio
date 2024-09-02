@@ -6,7 +6,7 @@ export default function skillsSection() {
         <section>
             <div className="">
                 <p className="text-5xl text-center">Skills</p>
-                <hr className="mx-auto mt-4"></hr>
+                <hr className="mx-auto mt-2"></hr>
             </div>
 
             <div className="grid grid-cols-3 gap-4 py-8 ">
