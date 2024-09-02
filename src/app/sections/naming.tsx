@@ -7,7 +7,7 @@ export default function namingSection() {
                 <p className="text-5xl text-center ">Hi, my name is Benjamin</p>
             </div>
 
-            <div className="text-center pt-36 md:text-5xl ">
+            <div className="text-center pt-36 md:text-5xl text-nowrap">
                 <TypeAnimation
                     sequence={[
                         "I am a developer",
@@ -19,7 +19,7 @@ export default function namingSection() {
                     ]}
                     wrapper="span"
                     speed={50}
-                    style={{ fontSize: "2em", display: "inline-block" }}
+                    style={{ fontSize: "md:2em", display: "inline-block" }}
                     repeat={Infinity}
                 />
             </div>
