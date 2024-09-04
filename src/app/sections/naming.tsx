@@ -4,10 +4,10 @@ export default function namingSection() {
     return (
         <div>
             <div>
-                <p className="text-5xl text-center ">Hi, my name is Benjamin</p>
+                <h1 className="text-5xl text-center ">Hi, my name is Benjamin</h1>
             </div>
 
-            <div className="text-center md:pt-36 text-xl sm:text-5xl  text-nowrap">
+            <div className="text-center  text-xl sm:text-5xl  text-nowrap">
                 <TypeAnimation
                     sequence={[
                         "I am a developer",

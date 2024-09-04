@@ -13,6 +13,9 @@ const config = {
 	],
   prefix: "",
   theme: {
+    letterSpacing: {
+      tightest: ".0125em",
+    },
     container: {
       center: true,
       padding: "2rem",
