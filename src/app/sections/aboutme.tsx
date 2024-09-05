@@ -13,7 +13,7 @@ export default function aboutMeSection() {
         I like figuring out and solving puzzles no matter how difficult it may be it, it is
         always exhilarating when you have solved something you have never tried before.
         <br></br>
-        Being a self taught developer has had it's challenges
+        Being a self taught developer has had its challenges
         but this allows me to come at and tackle problems from a different perspective allowing me to try new approaches and options
       </p>
     </section>
