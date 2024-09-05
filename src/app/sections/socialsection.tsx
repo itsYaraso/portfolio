@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+import { Mail } from "lucide-react";
 export default function socialSection() {
     return (
         <div className="flex">
@@ -25,6 +24,9 @@ export default function socialSection() {
               alt="Linkedin"
             />
           </a>
+            <a href="mailto:benshigregg@gmail.com" target="_blank">
+                <Mail className="cursor-pointer hover:scale-150 ease-in-out duration-200 2xl:w-5/6"/>
+            </a>
         </div>
       </div>
     );

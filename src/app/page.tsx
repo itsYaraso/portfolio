@@ -36,6 +36,9 @@ export default function Home() {
       <section className="pb-36">
         {projectsSection()}
       </section>
+
+      <a href= "mailto: Benshigregg@gmail.com">
+      </a>
     </main>
   );
 }
