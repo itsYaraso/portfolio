@@ -14,7 +14,7 @@ export default function socialSection() {
               alt="itsYaraso"
             />
           </a>
-
+          
           <a className="" href="https://www.linkedin.com/in/benjamin-gregg-9a514397/" target="_blank">
             <img
               src="/linkedin.svg"

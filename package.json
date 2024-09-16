@@ -12,25 +12,25 @@
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.3.29",
-    "lucide-react": "^0.429.0",
+    "framer-motion": "^11.5.4",
+    "lucide-react": "^0.441.0",
     "mini-svg-data-uri": "^1.4.4",
-    "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "14.2.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-type-animation": "^3.2.0",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.6",
+    "@types/react-dom": "^18.3.0",
     "daisyui": "^4.12.10",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "eslint": "^9.10.0",
+    "eslint-config-next": "14.2.11",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.6.2"
   }
 }
