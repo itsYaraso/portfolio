@@ -17,17 +17,12 @@ export default function skillsSection() {
                     link="https://developer.mozilla.org/en-US/docs/Web/CSS" />
 
                 <Card
-                    name="JS"
-                    icon="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png"
-                    link="https://developer.mozilla.org/en-US/docs/Web/JavaScript" />
-
-                <Card
                     name="HTML"
                     icon="html.svg"
                     link="https://developer.mozilla.org/en-US/docs/Web/HTML" />
 
                 <Card
-                    name="TSX"
+                    name="TS"
                     icon="typescript.svg"
                     link="https://www.typescriptlang.org" />
 
